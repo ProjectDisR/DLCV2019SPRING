@@ -1,5 +1,5 @@
 # hw 2: Object Detection in Aerial Images
-Object Detection in Aerial Images [[slides](https://docs.google.com/presentation/d/1CiO0rZzYbPabMjcgDGfRS6V85bRTLvR5cY3jiEngeLc/edit#slide=id.g5528878479_0_54)]
+Object Detection in Aerial Images [[slides](https://docs.google.com/presentation/d/1CiO0rZzYbPabMjcgDGfRS6V85bRTLvR5cY3jiEngeLc/edit#slide=id.g5528878479_0_1)]
 
 * YOLOv1 [[link](#YOLOv1)]
 * YOLOv1_Best [[link](#YOLOv1_best)]
