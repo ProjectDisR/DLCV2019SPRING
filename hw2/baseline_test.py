@@ -65,7 +65,7 @@ def test(imgs_root, predicts_root):
     dataloader = DataLoader(dataset, opt.batch_size, shuffle=False)
 
     yolov1 = Yolov1_vgg16bn(pretrained=True)
-    yolov1.load_state_dict(t.load('ckpts/baseline/e89.ckpt'))
+    yolov1.load_state_dict(t.load('e89.ckpt?dl=1'))
     yolov1 = yolov1.to(device).eval()
     
     if not os.path.isdir(predicts_root):

@@ -244,6 +244,7 @@ def Yolov1_vgg16bn(pretrained=False, **kwargs):
 def test():
     import torch
     model = Yolov1_vgg16bn(pretrained=True)
+    print(model)
     img = torch.rand(2, 3, 448, 448)
     output = model(img)
     print(output.size())
