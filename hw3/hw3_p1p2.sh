@@ -1,0 +1,1 @@
+python3 hw3_p1p2.py $1
